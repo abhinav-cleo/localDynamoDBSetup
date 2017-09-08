@@ -1,0 +1,19 @@
+{
+  "name": "DynamoDB_Lambda_Spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-dynamoDB": "node dynamoDbStart",
+    "stop-dynamoDB": "node dynamoDbStop",
+    "list-tables" : "node listLocalDynamoDBTables"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.111.0",
+    "shelljs": "^0.7.8"
+  }
+}
